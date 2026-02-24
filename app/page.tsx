@@ -333,20 +333,23 @@ export default function Home() {
                  <img src="/4.jpg" alt="郭宇轩" className="w-full h-full object-cover" />
               </div>
               <h3 className="font-bold text-lg">郭宇轩</h3>
+              <p className="text-sm text-gray-600 mt-1">1613912335@qq.com</p>
            </div>
            
            <div className="bg-white border-2 border-[#001F3F] p-4 rounded-lg shadow-[4px_4px_0px_#001F3F] text-center">
               <div className="w-20 h-20 bg-gray-200 rounded-full mx-auto mb-4 border border-[#001F3F] overflow-hidden">
-                 <img src="/3.jpg" alt="马铄淮" className="w-full h-full object-cover" />
+                 <img src="/6.jpg" alt="马铄淮" className="w-full h-full object-cover" />
               </div>
               <h3 className="font-bold text-lg">马铄淮</h3>
+              <p className="text-sm text-gray-600 mt-1">1659162570@qq.com</p>
            </div>
            
            <div className="bg-white border-2 border-[#001F3F] p-4 rounded-lg shadow-[4px_4px_0px_#001F3F] text-center">
               <div className="w-20 h-20 bg-gray-200 rounded-full mx-auto mb-4 border border-[#001F3F] overflow-hidden">
-                 <img src="/5.jpg" alt="伍彦璧" className="w-full h-full object-cover" />
+                 <img src="/7.jpg" alt="伍彦璧" className="w-full h-full object-cover" />
               </div>
               <h3 className="font-bold text-lg">伍彦璧</h3>
+              <p className="text-sm text-gray-600 mt-1">3218014096@qq.com</p>
            </div>
         </div>
 
