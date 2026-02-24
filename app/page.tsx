@@ -32,9 +32,12 @@ export default function Home() {
             href="http://shawnm.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-bold underline decoration-dotted hover:text-[#003366]"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-[#001F3F] text-white rounded-full border border-[#001F3F] hover:bg-[#003366] transition-colors font-bold"
           >
-            点击开饭
+            <span className="inline-flex items-center gap-2">
+              <span className="bg-white text-[#001F3F] rounded-full w-6 h-6 flex items-center justify-center">🍚</span>
+              点击开饭
+            </span>
           </a>
         </div>
 
