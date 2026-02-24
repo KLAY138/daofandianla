@@ -27,6 +27,16 @@ export default function Home() {
         <p className="text-lg sm:text-xl font-medium mb-8">
           到饭点啦！ —— <span className="italic">全链路智能美食决策助手</span>
         </p>
+        <div className="mb-8">
+          <a
+            href="http://shawnm.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold underline decoration-dotted hover:text-[#003366]"
+          >
+            点击开饭
+          </a>
+        </div>
 
         {/* Visual Grid & Phone Mockup */}
         <div className="relative w-full max-w-4xl mx-auto mt-12 mb-20">
