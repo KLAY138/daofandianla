@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 到饭点啦！ (Daofandianla) - Hackathon Project
+
+## Project Overview
+This is a landing page for the "到饭点啦！" (It's Time To Eat!) project, designed for the "North Tropic Hackathon - AI Agent Track".
+The design mimics the "A City Boy" poster style with a retro/journalistic aesthetic.
+
+## Tech Stack
+- **Framework**: Next.js 15+ (App Router)
+- **Styling**: Tailwind CSS v4
+- **Icons**: Lucide React
+- **Deployment**: Vercel
 
 ## Getting Started
 
-First, run the development server:
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment to Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project is optimized for Vercel deployment.
 
-## Learn More
+1. **Push to GitHub/GitLab/Bitbucket**:
+   - Initialize git repo: `git init`
+   - Add files: `git add .`
+   - Commit: `git commit -m "Initial commit"`
+   - Push to your remote repository.
 
-To learn more about Next.js, take a look at the following resources:
+2. **Deploy on Vercel**:
+   - Go to [Vercel Dashboard](https://vercel.com/dashboard).
+   - Click "Add New..." -> "Project".
+   - Import your git repository.
+   - **Framework Preset**: Next.js (Default)
+   - **Root Directory**: `.` (Default)
+   - Click **Deploy**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Customization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Colors**: Edit `app/globals.css` to change the CSS variables (Cream background, Navy text, etc.).
+- **Content**: Edit `app/page.tsx` to update text, images, and team info.
+- **Images**: Replace placeholder images in `app/page.tsx` with your actual assets (put them in `public/` folder).
 
-## Deploy on Vercel
+## Features
+- **Responsive Design**: Mobile-first approach, looks great on phone and desktop.
+- **Retro Aesthetic**: Paper texture, bold borders, specific color palette.
+- **Components**:
+  - Hero Section with Phone Mockup
+  - Feature Grid
+  - Pain/Gain Comparison
+  - Process Flow
+  - Team & Demo Sections
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Good luck with the Hackathon! 🚀
