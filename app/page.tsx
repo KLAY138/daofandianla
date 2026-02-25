@@ -324,14 +324,14 @@ export default function Home() {
       {/* Demo Section */}
       <section className="w-full max-w-4xl mb-16 border-t-2 border-[#001F3F] pt-12">
         <h2 className="text-3xl font-bold text-center mb-8">产品演示 Demo</h2>
-        <div className="w-full aspect-video bg-black rounded-lg overflow-hidden border-4 border-[#001F3F] shadow-[8px_8px_0px_#001F3F] flex items-center justify-center relative group">
+        <div className="w-full bg-black rounded-lg overflow-hidden border-4 border-[#001F3F] shadow-[8px_8px_0px_#001F3F] relative">
            <video 
-             className="w-full h-full object-cover" 
+             className="w-full h-auto object-contain" 
              controls 
              preload="metadata"
              poster="/feature-map.png"
            >
-             <source src="/3a4911de15015d43ad62cb50fc3020c6.mp4" type="video/mp4" />
+             <source src="/demo.mp4" type="video/mp4" />
              <p className="text-white">您的浏览器不支持播放该视频，请下载观看。</p>
            </video>
         </div>
